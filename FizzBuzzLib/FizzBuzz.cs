@@ -21,12 +21,12 @@ namespace FizzBuzzLib {
         }
 
         /*Solution to part 4
-         * takes in an int-string map that represents the replacement rules
-         * for every integer i in the inclusive range [min,max], we iterate over
-         * the map and test if i is evenly divisible by the keys in the map
-         * print the values these keys are associated with.
+         * Takes in an int-string map that represents the replacement rules.
+         * For every integer i in the inclusive range [min,max], we iterate over
+         * the map and test if i is evenly divisible by the keys in the map.
+         * Print the values these keys are associated with.
          * The order of printing depends on the order of the foreach iteration and by extension 
-         * the backing hash table, so it is not guaranteed.
+         * the order of the map's backing hash table, so it is not guaranteed.
          * If i is not divisible by any key, print i
          * 
          * For example, to use this for the original FizzBuzz problem, we would
