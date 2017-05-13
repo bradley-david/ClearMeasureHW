@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 //library class for FizzBuzz problem part 2
+//Located in FizzBuzzLib project, which is configured as a resuable library that can be compiled to .dll
 
 namespace FizzBuzzLib {
     public class FizzBuzz {
